@@ -10,6 +10,7 @@
 		491EEF5A25FF958B00AD298C /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 491EEF5025FF958B00AD298C /* EssentialFeed.framework */; };
 		491EEF5F25FF958B00AD298C /* EssentialFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EEF5E25FF958B00AD298C /* EssentialFeedTests.swift */; };
 		491EEF6B25FF961900AD298C /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EEF6A25FF961900AD298C /* FeedItem.swift */; };
+		491EEF6D25FF970000AD298C /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EEF6C25FF970000AD298C /* FeedLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		491EEF5E25FF958B00AD298C /* EssentialFeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedTests.swift; sourceTree = "<group>"; };
 		491EEF6025FF958B00AD298C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		491EEF6A25FF961900AD298C /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		491EEF6C25FF970000AD298C /* FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				491EEF6A25FF961900AD298C /* FeedItem.swift */,
+				491EEF6C25FF970000AD298C /* FeedLoader.swift */,
 				491EEF5425FF958B00AD298C /* Info.plist */,
 			);
 			path = EssentialFeed;
@@ -194,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				491EEF6D25FF970000AD298C /* FeedLoader.swift in Sources */,
 				491EEF6B25FF961900AD298C /* FeedItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
