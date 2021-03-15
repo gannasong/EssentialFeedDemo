@@ -73,8 +73,7 @@
 		491EEF5225FF958B00AD298C /* EssentialFeed */ = {
 			isa = PBXGroup;
 			children = (
-				491EEF6A25FF961900AD298C /* FeedItem.swift */,
-				491EEF6C25FF970000AD298C /* FeedLoader.swift */,
+				491EEF6E25FF980500AD298C /* Feed Feature */,
 				491EEF5425FF958B00AD298C /* Info.plist */,
 			);
 			path = EssentialFeed;
@@ -87,6 +86,15 @@
 				491EEF6025FF958B00AD298C /* Info.plist */,
 			);
 			path = EssentialFeedTests;
+			sourceTree = "<group>";
+		};
+		491EEF6E25FF980500AD298C /* Feed Feature */ = {
+			isa = PBXGroup;
+			children = (
+				491EEF6A25FF961900AD298C /* FeedItem.swift */,
+				491EEF6C25FF970000AD298C /* FeedLoader.swift */,
+			);
+			name = "Feed Feature";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
