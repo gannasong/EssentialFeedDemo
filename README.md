@@ -1,3 +1,3 @@
 # EssentialFeed
 
-![macOS build status](https://github.com/gannasong/EssentialFeed/workflows/CI-macOS/badge.svg)
+[![CI-macOS.yml](https://github.com/gannasong/EssentialFeed/actions/workflows/CI-macOS.yml/badge.svg?branch=main)](https://github.com/gannasong/EssentialFeed/actions/workflows/CI-macOS.yml)
